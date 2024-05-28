@@ -5,7 +5,8 @@ systemctl enable nginx
 apt-get install -y git
 curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
 apt-get install -y nodejs
-git clone https://github.com/Avijoy-Hazra-lab/localtogit
-cd localtogit
+	  
+git clone https://github.com/Avijoy-Hazra-lab/localtogit [https://github.com/WebMLSingh/Exam_WEB.git]
+cd localtogit [localWeb]
 npm install
 node index.js
