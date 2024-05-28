@@ -1,0 +1,9 @@
+git config --global user.name "Avijoy-Hazra-lab"
+git config --global user.email "avijoyhazra@yahoo.com"
+git init
+git add .
+git status
+git commit -m "message"
+git remote add origin <link>
+git branch -m main
+git push orgin main
