@@ -12,3 +12,4 @@ location /  {
 cd etc/nginx/sites-available/
 ls
 sudo vim default
+sudo systemctl restart nginx
